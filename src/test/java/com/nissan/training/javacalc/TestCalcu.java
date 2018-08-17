@@ -17,5 +17,11 @@ public class TestCalcu {
 		Calcu c1 = new Calcu();
 		assertEquals(10,c1.sub(20, 10));
 	}
+	
+	@Test
+	public void testMult() {
+		Calcu c1 = new Calcu();
+		assertEquals(10,c1.mult(2, 5));
+	}
 
 }
