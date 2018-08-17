@@ -2,7 +2,7 @@ package com.nissan.training.javacalc;
 
 public class Calcu {
 
-	int x;
+	int a;
 	public int add(int x, int y)
 	{
 		return x+y;
